@@ -14,9 +14,9 @@ def Main():
             Modified = time.strftime('%d/%m/%Y', time.gmtime(os.path.getmtime(File)))
             
             print("="*80)
-            print("Nome do arquivo: ", File.name)
-            print("Criado em: ", Created)
-            print("Modificado em: ", Modified)
+            print("File Name: ", File.name)
+            print("Created: ", Created)
+            print("Modified: ", Modified)
             print("="*80)
             print()
 
